@@ -1,3 +1,6 @@
 body {
 background-color: #adffe4;
 color: white; }
+html {
+height: 100%;
+}

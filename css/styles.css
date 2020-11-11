@@ -10,10 +10,9 @@ h1 {
     border-style: double;
     }
 p {
-     border-radius: 25px;
-     border: 2px solid #73AD21;
-     background: #5a6d40
-     padding: 20px;
-     width: 200px;
-     height: 10px;
-    }
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+  }

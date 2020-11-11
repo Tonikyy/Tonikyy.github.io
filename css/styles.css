@@ -10,10 +10,9 @@ h1 {
     border-style: double;
     }
 p {
-    border-radius: 25px;
     background: #73AD21;
     padding: 20px;
-    width: 200px;
+    width: 100%;
     height: 15px;
   }
   * {
@@ -34,7 +33,7 @@ header {
 }
 nav {
     float: left;
-    width: 100%;
+    width: 50%;
     background: #ccc;
     padding: 20px;
 
@@ -48,4 +47,6 @@ section {
     display: table;
     clear: both;
     background: chocolate;
+    width: 100%;
+
 }

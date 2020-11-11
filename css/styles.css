@@ -33,10 +33,11 @@ header {
     color: #686800;
 }
 nav {
-    float: inline-start;
+    float: left;
     width: 100%;
     background: #ccc;
     padding: 20px;
+
 }
 nav ul {
     list-style-type: disc;

@@ -39,8 +39,9 @@ nav ul {
     list-style-type: disc;
     padding: 0;
 }
-section:after {
+section {
     content: "";
     display: table;
     clear: both;
+    background: chocolate;
 }

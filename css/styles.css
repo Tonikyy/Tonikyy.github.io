@@ -4,3 +4,8 @@ html {
 height: 100%;
 background: linear-gradient(#adffe4, #00bab1);
 }
+h1 {
+    border-color: blue;
+    border-width: .25em;
+    border-style: double;
+    }

@@ -31,7 +31,7 @@ header {
 }
 nav {
     float: inline-start;
-    width: 30%;
+    width: 100%;
     background: #ccc;
     padding: 20px;
 }

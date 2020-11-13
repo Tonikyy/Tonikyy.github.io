@@ -68,3 +68,7 @@ h3 {
     margin-right: auto;
     width: fit-content;
   }
+  a:link, a:visited {
+    color: rgba(221, 221, 221, 0.7);
+    text-decoration: none;
+  }

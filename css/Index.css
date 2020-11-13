@@ -18,7 +18,7 @@ p {
 }
 body {
     font-family: Arial, Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;    
 }
@@ -57,7 +57,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 h3 {
     text-align: center;

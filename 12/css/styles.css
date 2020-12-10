@@ -1,0 +1,131 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .center {
+      text-align: center;
+      
+
+  }
+  body {
+    padding-top: 0px;
+    
+  }
+  footer {
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+      height: 3%;
+  }
+
+.fa {
+  padding: auto;
+  font-size: auto;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:0%
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+
+  .moro {
+    color: rgba(53, 82, 99, 0.74);
+    padding-right: 30px;
+    }
+    
+    .col-sm {
+        padding-top: 50px;
+    }
+    
+    .varjo {
+        box-shadow: 10px 10px darkgray;
+        text-shadow: 2px 2px darkgray;
+        padding-top: 6%;
+    }
+    
+    .tausta {
+      background-image: url("../kuvat/boat-2.jpg");
+       height: 400px;
+       width: 100%;
+       background-size: cover;
+    }
+    .background-image {
+      opacity: 0.3;
+    }
+    
+    
+    a:link {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        transition: 1s;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: rgb(0, 0, 0);
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(61, 123, 134);
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(0, 0, 0);
+      }
+      
+      .carousel {
+        width: 600px;
+      }
+
+      .carousel img {
+        width: 100%;
+      }
+
+      a.postit {
+        background-color: rgba(233, 233, 233, 0.473);
+        color: rgb(56, 56, 56);
+        border: 0px solid rgba(233, 233, 233, 0.411);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-top-right-radius: 35%;
+        border-bottom-right-radius: 35%;
+        transition: 1s;
+       }
+       a.postit:hover {
+         color: rgb(80, 146, 168);
+         background-color: rgba(211, 211, 211, 0.39);
+       }
+

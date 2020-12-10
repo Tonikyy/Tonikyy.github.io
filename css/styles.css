@@ -10,6 +10,11 @@ html {
   }
   body {
     padding-top: 0px;
+    background-image: url('../kuvat/boat-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 2000px;
     
   }
   footer {
@@ -74,15 +79,6 @@ html {
         padding-top: 6%;
     }
     
-    .tausta {
-      background-image: url("../kuvat/boat-2.jpg");
-       height: 400px;
-       width: 100%;
-       background-size: cover;
-    }
-    .background-image {
-      opacity: 0.3;
-    }
     
     
     a:link {

@@ -6,7 +6,7 @@ html {
   .center {
       text-align: center;
       
-
+  
   }
   body {
     padding-top: 0px;
@@ -179,4 +179,8 @@ html {
   align-content: center;
   margin-left: 15%;
   
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.493);
 }

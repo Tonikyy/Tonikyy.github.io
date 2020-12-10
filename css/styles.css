@@ -106,10 +106,7 @@ html {
       
       .carousel {
         width: 600px;
-      }
-
-      .carousel img {
-        width: 100%;
+        size: 100%;
       }
 
       a.postit {

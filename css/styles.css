@@ -170,7 +170,7 @@ html {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(192, 192, 192);
+  background-color: rgba(255, 255, 255, 0.658);
   color: rgb(37, 37, 37);
   transform: rotateY(180deg);
 }

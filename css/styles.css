@@ -27,8 +27,6 @@ html {
     }
 
 .fa {
-  padding: auto;
-  font-size: auto;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -104,7 +102,6 @@ html {
       
       .carousel {
         width: 600px;
-        size: 100%;
       }
 
       a.postit {

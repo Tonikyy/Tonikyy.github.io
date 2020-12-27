@@ -1,13 +1,14 @@
-body {
-    color: #f1ecf8; }
+
 html {
     height: 100%;
-    background: linear-gradient(#bdc3c7, #2c3e50);
-    font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    min-height: 100%;
 }
 h1 {
-    border-color:#bdc3c7;
+    border-color:#0a0a0a;
     border-width: 100%;
     border-style: solid;
     text-align: center;
@@ -19,16 +20,16 @@ p {
     text-align: center;
 }
 body {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto; 
+    margin-top: 6%;   
 }
 header {
-    background-color: linear-gradient(#bdc3c7, #2c3e50);
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: #c9c9c9;
+    color: #0c0c0c;
 }
 
 section {
@@ -50,7 +51,7 @@ section {
   }
 h2 { 
     text-align: center;
-    color: rgba(221, 221, 221, 0.7);
+    color: rgba(2, 2, 2, 0.822);
     font-size: 24px;
 
 }
@@ -62,13 +63,101 @@ img {
 }
 h3 {
     text-align: center;
-    color: #c9c9c9;
+    color: #0f0f0f;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-  }
-  a:link, a:visited {
-    color: rgba(221, 221, 221, 0.7);
+}
+
+.center {
+    text-align: center;
+      
+  
+}
+  
+body {
+    padding-top: 0px;
+    background-image: url('../Images/thumb-1920-774372.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 2000px;
+    
+}
+  
+footer {
+    bottom: 0px;
+    width: 100%;
+    height: 3%;
+    clear: both;
+    position: relative;
+    margin-top: auto;
+}
+
+.fa {
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:0%
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.moro {
+  color: rgba(53, 82, 99, 0.74);
+  padding-right: 30px;
+}
+    
+.col-sm {
+  padding-top: 40px;
+}
+    
+a:link {
+    color: rgba(2, 2, 2, 0.822);
     text-decoration: none;
-  }
+    transition: 1s;
+}
+      
+      /* visited link */
+a:visited {
+    color: rgba(2, 2, 2, 0.822);
+}
+      
+      /* mouse over link */
+a:hover {
+    color: rgb(87, 87, 87);
+}
+      
+      /* selected link */
+a:active {
+    color: rgb(0, 0, 0);
+}

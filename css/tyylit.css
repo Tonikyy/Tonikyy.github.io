@@ -1,12 +1,4 @@
 
-html {
-    height: 100%;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    min-height: 100%;
-}
 h1 {
     border-color:#0a0a0a;
     border-width: 100%;
@@ -19,36 +11,6 @@ p {
     height: 100px;
     text-align: center;
 }
-body {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 6%;   
-}
-header {
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: #0c0c0c;
-}
-
-section {
-    content: "";
-    display: table;
-    clear: both;
-    background: linear-gradient(#bdc3c7, #2c3e50);
-    width: 100%;
-    text-align: center;
-
-}
-.center {
-    text-align: center;
-    content: "";
-    display: table;
-    clear: both;
-    background: linear-gradient(#bdc3c7, #2c3e50);
-    width: 100%;
-  }
 h2 { 
     text-align: center;
     color: rgba(2, 2, 2, 0.822);
@@ -61,21 +23,6 @@ img {
   margin-right: auto;
   border-radius: 6%;
 }
-h3 {
-    text-align: center;
-    color: #0f0f0f;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}
-
-.center {
-    text-align: center;
-      
-  
-}
-  
 body {
     padding-top: 0px;
     background-image: url('../Images/thumb-1920-774372.jpg');
@@ -89,61 +36,10 @@ body {
     line-height: 18.50px;
     letter-spacing: 1px;
     text-shadow: 1px 2px 6px rgba(0,0,0,0.61);
-}
-  
-footer {
-    bottom: 0px;
     width: 100%;
-    height: 3%;
-    clear: both;
-    position: relative;
-    margin-top: auto;
-}
-
-.fa {
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius:0%
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.map-container{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-
-.map-container iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-
-.moro {
-  color: rgba(53, 82, 99, 0.74);
-  padding-right: 30px;
-}
-    
-.col-sm {
-  padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 6%;   
 }
     
 a:link {

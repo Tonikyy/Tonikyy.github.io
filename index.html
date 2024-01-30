@@ -59,6 +59,7 @@
                         <div class="col-sm"></div>
                 </div>
         </div>
+        <p style="display: none;"> <span id="visitCount"></span></p>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
                 crossorigin="anonymous"></script>
@@ -81,5 +82,24 @@
                 const userInfoElement = document.getElementById("userInfo");
                 userInfoElement.textContent = `${name}, ${calculateAge(birthdate)}`;
         </script>
+        <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                  // Check if the visit count exists in local storage
+                  if(localStorage.getItem("visitCount")) {
+                    // If it exists, increment it by 1
+                    let count = parseInt(localStorage.getItem("visitCount")) + 1;
+                    localStorage.setItem("visitCount", count);
+                  } else {
+                    // If it doesn't exist, set it to 1
+                    localStorage.setItem("visitCount", 1);
+                  }
+                });
+                </script>
+                <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                          // Display the visit count
+                          document.getElementById("visitCount").textContent = localStorage.getItem("visitCount");
+                        });
+                        </script>
 </body>
 </html>
